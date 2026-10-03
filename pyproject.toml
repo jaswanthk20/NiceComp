@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+testpaths = ["tests/backend"]
+pythonpath = ["services/api"]
+addopts = "--tb=short"
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+[tool.ruff.lint]
+select = ["F"]
+ignore = ["F403", "F405"]

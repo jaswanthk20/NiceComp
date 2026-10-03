@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "NICE COMP Support",
+    "slug": "nicecomp-support",
+    "version": "0.1.0",
+    "scheme": "nicecomp",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "net.nicecompressors.support.prototype"
+    },
+    "android": {
+      "package": "net.nicecompressors.support.prototype",
+      "permissions": ["CAMERA"]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "NICE COMP Support"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Choose diagnostic photos for your support ticket.",
+          "cameraPermission": "Take a diagnostic photo for your support ticket."
+        }
+      ]
+    ],
+    "experiments": { "typedRoutes": true }
+  }
+}

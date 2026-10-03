@@ -1,0 +1,19 @@
+appId: net.nicecompressors.support.prototype
+---
+# For a development build; Expo Go requires opening the project URL before this flow.
+- launchApp
+- tapOn: "Email address"
+- inputText: "customer@nicecomp.test"
+- tapOn: "Password"
+- inputText: "Review-Only-2026!"
+- tapOn: "Sign in"
+- assertVisible: "Welcome, TEST CUSTOMER"
+- tapOn: "Products"
+- tapOn: "View product"
+- tapOn: "Ask NICE AI"
+- tapOn: "Your question"
+- inputText: "What is the tank capacity?"
+- tapOn: "Send question"
+- assertVisible: "Source: ECO 10A.*"
+- tapOn: "Issue unresolved? Create ticket"
+- assertVisible: "Problem description"

@@ -1,0 +1,7 @@
+node_modules
+apps/mobile/dist
+.local
+package-lock.json
+knowledge/research
+docs/*results*
+supabase/migrations

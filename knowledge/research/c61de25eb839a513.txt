@@ -1,0 +1,18 @@
+Air Receivers
+An Air Receivers is essentially a heavy-duty pressure vessel that acts as a strong reservoir for compresses air. it helps maintain stable pressure across your facility and prevents your compressor from constantly turning on and off under shifting loads.
+Where put the receiver tank before or after the air dryer determines if it holds wet air or dry air.
+Wet Storage vs. Dry Storage
+Setup
+Placement
+Primary Benefit
+Key Advantage
+Wet Receiver
+Before
+the air dryer
+Cools hot discharge air & drops out heavy liquid water
+Protects and reduces heat load on the refrigerated dryer
+Dry Receiver
+After
+the air dryer & filters
+Stores fully clean, dry air ready for immediate production use
+Prevents sudden air demand spikes from overloading the dryer

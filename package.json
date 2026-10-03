@@ -1,0 +1,23 @@
+{
+  "name": "nicecomp-support",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/mobile"
+  ],
+  "scripts": {
+    "mobile": "npm run start --workspace apps/mobile",
+    "web": "npm run web --workspace apps/mobile",
+    "dev": "node scripts/dev.mjs",
+    "typecheck": "npm run typecheck --workspace apps/mobile",
+    "test": "node scripts/test.mjs",
+    "test:ui": "npm run test --workspace apps/mobile",
+    "test:e2e": "playwright test",
+    "build:web": "npm run build:web --workspace apps/mobile"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "prettier": "^3.6.2",
+    "supabase": "^2.0.0"
+  }
+}
